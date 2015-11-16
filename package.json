@@ -1,0 +1,26 @@
+{
+  "name": "site_skeleton_template",
+  "version": "0.1.0",
+  "description": "A responsive website template layout based on the skeleton framework",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "skeleton"
+  ],
+  "author": "Bill Chandler",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jade": "^0.15.0",
+    "grunt-contrib-stylus": "^0.22.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express": "^1.4.1",
+    "grunt-parallel": "^0.4.1",
+    "normalize-styl": "^3.0.3"
+  },
+  "dependencies": {
+    "font-awesome-stylus": "^4.4.0"
+  }
+}
