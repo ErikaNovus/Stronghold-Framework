@@ -1,0 +1,91 @@
+$btn_neutral = #6a98e1 //Blue
+$btn_bad = #F74662 //Red
+$btn_medium = #FFA86A //Orange
+$btn_good = #60E59E //Green
+
+// Default Button with Transparent Background
+.btn,button,input[type="submit"],input[type="reset"],input[type="button"]
+  display inline-block
+  height 30px
+  padding 0 30px
+  color $default_font_colour
+  text-align center
+  font-size 11px
+  font-weight 400
+  line-height 30px
+  letter-spacing .1rem
+  text-transform uppercase
+  text-decoration none
+  white-space nowrap
+  background-color transparent
+  border 1px solid #bbb
+  cursor pointer
+  box-sizing border-box 
+  &:hover
+    color $default_font_colour
+    border-color #888
+    outline 0 
+  &:focus
+    color $default_font_colour
+    border-color #888
+    outline 0
+.btn-round
+  @extend .btn
+  border-radius 4px
+  
+// Blue Background
+.btn-round.btn-neutral,.btn.btn-neutral,button.btn-neutral,input[type="submit"].btn-neutral,input[type="reset"].btn-neutral,input[type="button"].btn-neutral, bt 
+  color #FFF
+  background-color $btn_neutral
+  border-color $btn_neutral
+  &:hover
+    color #FFF
+    background-color darken($btn_neutral,5)
+    border-color darken($btn_neutral,5)
+  &:focus
+    color #FFF
+    background-color darken($btn_neutral,5)
+    border-color darken($btn_neutral,5)
+
+// Red Background   
+.btn-round.btn-bad,.btn.btn-bad,button.btn-bad,input[type="submit"].btn-bad,input[type="reset"].btn-bad,input[type="button"].btn-bad 
+  color #FFF
+  background-color $btn_bad
+  border-color $btn_bad
+  &:hover
+    color #FFF
+    background-color darken($btn_bad,5)
+    border-color darken($btn_bad,5)
+  &:focus
+    color #FFF
+    background-color darken($btn_bad,5)
+    border-color darken($btn_bad,5)
+
+// Orange Background
+.btn-round.btn-medium,.btn.btn-medium,button.btn-medium,input[type="submit"].btn-medium,input[type="reset"].btn-medium,input[type="button"].btn-medium 
+  color #FFF
+  background-color $btn_medium
+  border-color $btn_medium
+  &:hover
+    color #FFF
+    background-color darken($btn_medium,5)
+    border-color darken($btn_medium,5)
+  &:focus
+    color #FFF
+    background-color darken($btn_medium,5)
+    border-color darken($btn_medium,5)
+
+// Green Background    
+.btn-round.btn-good,.btn.btn-good,button.btn-good,input[type="submit"].btn-good,input[type="reset"].btn-good,input[type="button"].btn-good 
+  color #FFF
+  background-color $btn_good
+  border-color $btn_good
+  &:hover
+    color #FFF
+    background-color darken($btn_good,5)
+    border-color darken($btn_good,5)
+  &:focus
+    color #FFF
+    background-color darken($btn_good,5)
+    border-color darken($btn_good,5)
+    
