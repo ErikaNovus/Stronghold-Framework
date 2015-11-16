@@ -19,12 +19,13 @@ I decided to use Font Awesome in this project as it's my favourite of all the ic
 
 ###Checklist
 + ~~Grid~~
-> Make Grid Responsive
+> ~~Make Grid Responsive~~
 + ~~Visible and Hidden elements~~
-+ Basic Colour scheme
++ ~~Basic Colour scheme~~
 + Navigation
 > Dropdowns
-+ Buttons
++ ~~Buttons~~
+> Needs more button varieties!
 + More coming soon...
 
 ##What do I get in the download?
