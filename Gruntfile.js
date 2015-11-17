@@ -25,6 +25,17 @@ module.exports = function(grunt) {
         }]
       }
     },
+    uglify: {
+      all_js: {
+        options: {
+          sourceMap: true,
+          sourceMapName: 'sourceMap.map'
+        },
+        files: {
+          'composite.min.js': ['javascript/slick.min.js','javascript/sliders.js','javascript/segment.js','javascript/custom_animations.js']
+        }
+      }
+    },
     watch: {
       jade: {
         files: ['src/jade/*.jade'],
@@ -33,6 +44,10 @@ module.exports = function(grunt) {
       stylus: {
         files: ['src/stylus/*.styl'],
         tasks: ['stylus']
+      },
+      javascript: {
+        files: ['src/javascript/*.js'],
+        tasks: ['uglify']
       },
       options: {
         livereload: true
@@ -52,6 +67,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-parallel');
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-contrib-jade');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-express');
 
