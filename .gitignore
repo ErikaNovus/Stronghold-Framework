@@ -49,3 +49,4 @@ fonts
 src/stylus/_base_styles.styl
 dist
 src/stylus/style.styl
+sync.ffs_db

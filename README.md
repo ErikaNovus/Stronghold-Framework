@@ -9,8 +9,13 @@ During my long struggle learning HTML to a good degree I got annoyed with fact t
 Unlike most other Frameworks I have written Stronghold in Jade and Stylus as these are the pre-processors I use on a daily basis. 
 
 ##What does Stronghold give me?
-Currently, we have a working Grid system of 12 columns (called towers) which should be placed inside of rows which in turn is placed inside a container (called Keeps).
-I will be continuously working on this project to make it a Framework that I can use on any web development project.
+Currently:
+- 12 column(tower) based grid system using containers(keep)
+- Pleasing default colour scheme
+- Ability to hide and show elements based on viewport size
+- Smooth Carousel sliders using slick.js
+
+*See checklist for what's to come*
 
 ##What has gone into this project?
 To create this program I took the base level [Skeleton](http://getskeleton.com/) grid system and changed it to make it work how I want it. 
@@ -26,6 +31,8 @@ I decided to use Font Awesome in this project as it's my favourite of all the ic
 > Dropdowns
 + ~~Buttons~~
 > Needs more button varieties!
++ ~~Carousels (Implement Slick)~~
++ 
 + More coming soon...
 
 ##What do I get in the download?
@@ -36,4 +43,12 @@ If you would like to work with the Jade and Stylus files but do not know how the
 + [jade](http://webdesign.tutsplus.com/courses/top-speed-html-development-with-jade?utm_source=Tuts+&utm_medium=referral&utm_campaign=teaserpost-short&utm_content=CRS-20012&WT.mc_id=Tuts+_referral_teaserpost-short_CRS-20012)
 + [stylus](http://webdesign.tutsplus.com/courses/become-a-css-superhero-with-stylus)
 + [Grunt](http://webdesign.tutsplus.com/series/the-command-line-for-web-design--cms-777)
+
+
+##Dependancies
+|Dependancy|Description|
+|----------|----|
+|[Normalize.styl](https://github.com/bymathias/normalize.styl)|Add Normalize.css to Stylus sheets|
+|[Font-Awesome-stylus](https://github.com/raulghm/Font-Awesome-Stylus)|Add font awesome using stylus|
+|[Slick](http://kenwheeler.github.io/slick/)|Amazingly smooth carousels|
 
