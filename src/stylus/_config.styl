@@ -1,20 +1,60 @@
-/* GRID VARIABLES - NECESSARY FOR GRID TO WORK
-/* TO CHANGE THE SIZE OF THE GRID JUST CHANGE THE LAST NUMBER IN THE $1_rise_wth VARIABLE*/
+/* 
+# GRID VARIABLES - NECESSARY FOR GRID TO WORK
+# AMOUNT OF COLUMNS CAN BE ADJUSTED BUT NEW RISE CLASSES WILL HAVE TO BE MANUALLY CREATED INSIDE OF _grid.styl 
+*/
 $12_rise_wth = 100%
 $1_rise_wth = $12_rise_wth / 12
 
-/* DEFAULT PATHS */
+/* 
+# DEFAULT PATHS 
+# UPDATE THESE IF FONTS OF IMAGES ARE KEPT IN ANOTHER DIRECTORY
+*/
 $font_path = "../fonts/"
 $img_path = "../img/"
 
-/* COLOUR SCHEME */
+/* 
+# COLOUR SCHEME
+# MANUALLY CHANGE THESE HERE TO CHANGE THE COLOUR OF ALL PRE-DEFINED ELEMENTS
+*/
 $neutral = #6A98E1 //Blue
 $bad = #F74662 //Red
 $medium = #FFA86A //Orange
 $good = #60E59E //Green
 $default_font_colour = #333 //Grey
+$default_link_colour = $neutral
 
-/* SLICK CAROUSEL VARIABLES */
+/* 
+# FONTS
+# NEW FONTS CAN BE ADDED BELOW
+*/
+@font-face
+  font-family SoftElegance
+  font-style normal
+  src url($font_path + "SoftElegance.ttf")
+@font-face
+  font-family Monofur
+  font-style normal
+  src url($font_path + "Monofur.ttf")
+
+$main_font = "SoftElegance"
+$code_font = "Monofur"
+
+
+/* 
+# TYPOGRAPHY
+# RELATIVE FONT SIZES
+*/
+$h1_size = 4rem
+$h2_size = 3.6rem
+$h3_size = 3rem
+$h4_size = 2.4rem
+$h5_size = 1.8rem
+$h6_size = 1.5rem 
+
+/* 
+# SLICK CAROUSEL VARIABLES
+# NOT RECOMMENDED TO CHANGE THESE VARIABLES
+*/
 $slick-font-path = $font_path 
 $slick-font-family = "slick" 
 $slick-loader-path = "./" 
