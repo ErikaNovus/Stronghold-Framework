@@ -11,11 +11,7 @@ Unlike most other Frameworks I have written Stronghold in Jade and Stylus as the
 ##What does Stronghold give me?
 Currently:
 - 12 column(rise) based grid system using containers(pod)
-<<<<<<< HEAD
 - Pleasing default colour scheme (editable in config)
-=======
-- Pleasing default colour scheme
->>>>>>> origin/master
 - Ability to hide and show elements based on viewport size
 - Utility classes to auto-float, make an element fill a container and round the corners of any element.
 - Align text using 'tLeft', 'tRight', 'tCenter' and 'tJustify' classes.
