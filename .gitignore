@@ -47,8 +47,6 @@ node_modules
 src/stylus/_base_styles.styl
 src/stylus/style.styl
 sync.ffs_db
-<<<<<<< HEAD
 *.cfg
-=======
 prepros.cfg
->>>>>>> origin/master
+
