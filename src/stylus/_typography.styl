@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 html /* This makes the default font size 10px. All rem values change to match so 1.5rem equals 15px */
+=======
+html /* This makes the default font size 10px. All rem values would match so 1.5rem would equal 15px */
+>>>>>>> origin/master
   font-size 62.5%
   font-family $main_font
 body
@@ -6,6 +10,7 @@ body
   line-height 1.6
   font-weight 400
   color $default_font_colour
+  font-family $main_font
 
 h1,h2,h3,h4,h5,h6
   margin-top 0
@@ -30,6 +35,7 @@ h6
   line-height 1.6
   letter-spacing 0
 p
+<<<<<<< HEAD
   margin-top 0
   margin-bottom 2.5rem
   
@@ -39,6 +45,13 @@ a
   &:hover
     color darken($neutral,15)
     text-decoration none
+=======
+  margin-top 0 
+a
+  color $default_link_colour
+  &:hover
+    color darken($default_link_colour,15)
+>>>>>>> origin/master
     
 code
   padding .2rem .5rem
