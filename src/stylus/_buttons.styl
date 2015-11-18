@@ -24,12 +24,9 @@
     color $default_font_colour
     border-color #888
     outline 0
-.btn-round
-  @extend .btn
-  border-radius 4px
   
 // Blue Background
-.btn-round.btn-neutral,.btn.btn-neutral,button.btn-neutral,input[type="submit"].btn-neutral,input[type="reset"].btn-neutral,input[type="button"].btn-neutral, bt 
+.btn-neutral,.btn.btn-neutral,button.btn-neutral,input[type="submit"].btn-neutral,input[type="reset"].btn-neutral,input[type="button"].btn-neutral, bt 
   color #FFF
   background-color $neutral
   border-color $neutral
@@ -43,7 +40,7 @@
     border-color darken($neutral,5)
 
 // Red Background   
-.btn-round.btn-bad,.btn.btn-bad,button.btn-bad,input[type="submit"].btn-bad,input[type="reset"].btn-bad,input[type="button"].btn-bad 
+.btn-bad,.btn.btn-bad,button.btn-bad,input[type="submit"].btn-bad,input[type="reset"].btn-bad,input[type="button"].btn-bad 
   color #FFF
   background-color $bad
   border-color $bad
@@ -57,7 +54,7 @@
     border-color darken($bad,5)
 
 // Orange Background
-.btn-round.btn-medium,.btn.btn-medium,button.btn-medium,input[type="submit"].btn-medium,input[type="reset"].btn-medium,input[type="button"].btn-medium 
+.btn-medium,.btn.btn-medium,button.btn-medium,input[type="submit"].btn-medium,input[type="reset"].btn-medium,input[type="button"].btn-medium 
   color #FFF
   background-color $medium
   border-color $medium
@@ -71,7 +68,7 @@
     border-color darken($medium,5)
 
 // Green Background    
-.btn-round.btn-good,.btn.btn-good,button.btn-good,input[type="submit"].btn-good,input[type="reset"].btn-good,input[type="button"].btn-good 
+.btn-good,.btn.btn-good,button.btn-good,input[type="submit"].btn-good,input[type="reset"].btn-good,input[type="button"].btn-good 
   color #FFF
   background-color $good
   border-color $good
@@ -83,4 +80,7 @@
     color #FFF
     background-color darken($good,5)
     border-color darken($good,5)
+
+btn,.btn 
+  margin-bottom 1rem
     

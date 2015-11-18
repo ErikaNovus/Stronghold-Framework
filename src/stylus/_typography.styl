@@ -1,13 +1,6 @@
-$h1_size = 4rem
-$h2_size = 3.6rem
-$h3_size = 3rem
-$h4_size = 2.4rem
-$h5_size = 1.8rem
-$h6_size = 1.5rem
-$default_font_colour = #333
-
-html
+html /* This makes the default font size 10px. All rem values change to match so 1.5rem equals 15px */
   font-size 62.5%
+  font-family $main_font
 body
   font-size 1.5em
   line-height 1.6
@@ -38,15 +31,19 @@ h6
   letter-spacing 0
 p
   margin-top 0
+  margin-bottom 2.5rem
   
 a
-  color darken($default_font_colour,10)
+  color $neutral
+  text-decoration none
   &:hover
-    color darken($default_font_colour,15)
+    color darken($neutral,15)
+    text-decoration none
     
 code
   padding .2rem .5rem
   margin 0 .2rem
+  font-family $code_font
   font-size 90%
   white-space nowrap
   background #F1F1F1
@@ -56,7 +53,29 @@ pre > code
   display block
   padding 1rem 1.5rem
   white-space pre
+  margin-bottom 2.5rem
 
+blockquote
+  margin-bottom 2.5rem
+  
+.tLeft
+  text-align left
+.tRight
+  text-align right 
+.tCenter
+  text-align center  
+.tJustify
+  text-align justify
+.tNoWrap
+  white-space nowrap
+.tUppercase
+  text-transform uppercase
+.tLowercase
+  text-transform lowercase
+.tCapitalize
+  text-transform capitalize
+
+  
 @media (max-width 767px)
   h1
     font-size ($h1_size / 1.2)
@@ -111,5 +130,3 @@ pre > code
     font-size $h5_size
   h6
     font-size $h6_size
-
-// @media (min-width 1200px)

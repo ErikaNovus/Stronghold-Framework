@@ -1,14 +1,16 @@
 /* UTILITIES */
-.full-width-element 
+.full-width-element /* Makes element the width of it's parent*/
   width 100%
   box-sizing border-box 
-.no-bleed-element
+.no-bleed-element /* Stops image from bleeding over edge of parent */
   max-width 100%
   box-sizing border-box
 .push
   float right 
 .pull 
   float left
+.round /* Makes any element have round corners */
+  border-radius 4px
 
 /* MISC */
 hr
@@ -16,6 +18,8 @@ hr
   margin-bottom 3.5rem
   border-width 0
   border-top 1px solid #E1E1E1
+dl,figure
+  margin-bottom 2.5rem
 
 /* CLEARING */
 .container:after,.row:after,.clear-it

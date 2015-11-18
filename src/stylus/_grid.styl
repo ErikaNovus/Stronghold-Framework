@@ -1,226 +1,215 @@
-.tower-mob-1,.tower-mob-2,.tower-mob-3,.tower-mob-4,.tower-mob-5,.tower-mob-6,.tower-mob-7,.tower-mob-8,.tower-mob-9,.tower-mob-10,.tower-mob-11,.tower-mob-12,.tower-tab-1,.tower-tab-2,.tower-tab-3,.tower-tab-4,.tower-tab-5,.tower-tab-6,.tower-tab-7,.tower-tab-8,.tower-tab-9,.tower-tab-10,.tower-tab-11,.tower-tab-12,.tower-lap-1,.tower-lap-2,.tower-lap-3,.tower-lap-4,.tower-lap-5,.tower-lap-6,.tower-lap-7,.tower-lap-8,.tower-lap-9,.tower-lap-10,.tower-lap-11,.tower-lap-12,.tower-des-1,.tower-des-2,.tower-des-3,.tower-des-4,.tower-des-5,.tower-des-6,.tower-des-7,.tower-des-8,.tower-des-9,.tower-des-10,.tower-des-11,.tower-des-12
+rise_width($rise_num)
+  $1_rise_wth * $rise_num
+
+.rise-1,.rise-2,.rise-3,.rise-4,.rise-5,.rise-6,.rise-7,.rise-8,.rise-9,.rise-10,.rise-11,.rise-12,.rise-s1,.rise-s2,.rise-s3,.rise-s4,.rise-s5,.rise-s6,.rise-s7,.rise-s8,.rise-s9,.rise-s10,.rise-s11,.rise-s12,.rise-m1,.rise-m2,.rise-m3,.rise-m4,.rise-m5,.rise-m6,.rise-m7,.rise-m8,.rise-m9,.rise-m10,.rise-m11,.rise-m12,.rise-l1,.rise-l2,.rise-l3,.rise-l4,.rise-l5,.rise-l6,.rise-l7,.rise-l8,.rise-l9,.rise-l10,.rise-l11,.rise-l12
   width 100%
   float left
   box-sizing border-box
-.full-keep /* Full page width container */
+.fullPod /* Full page width container */
   width 100%
   max-width 100%
   clear both
   margin 0 auto
-.keep /* Width restricter container 960px max */
+.pod /* Width restricted container 960px max */
   position relative
   width 100%
-  max-width 960px
-  margin 0 auto
-  padding 0 20px
+  max-width 96%
+  margin-left 5px
+  margin-right 5px
   box-sizing border-box
-  
-.tower-mob-1
-  width 8.333%    
-.tower-mob-2
-  width 16.666%    
-.tower-mob-3
-  width 24.999%    
-.tower-mob-4
-  width 33.333%    
-.tower-mob-5
-  width 41.665%    
-.tower-mob-6
-  width 49.998%    
-.tower-mob-7
-  width 58.331%    
-.tower-mob-8
-  width 66.664%    
-.tower-mob-9
-  width 74.997%    
-.tower-mob-10
-  width 83.333%    
-.tower-mob-11
-  width 91.663%    
-.tower-mob-12
-  width 100%
+.rise-1
+  width $1_rise_wth    
+.rise-2
+  width rise_width(2)
+.rise-3
+  width rise_width(3)    
+.rise-4
+  width rise_width(4) 
+.rise-5
+  width rise_width(5) 
+.rise-6
+  width rise_width(6)
+.rise-7
+  width rise_width(7)   
+.rise-8
+  width rise_width(8) 
+.rise-9
+  width rise_width(9)   
+.rise-10
+  width rise_width(10)   
+.rise-11
+  width rise_width(11) 
+.rise-12
+  width rise_width(12)
   margin-left 0
-.offset-mob-1
-  margin-left 8.333%
-.offset-mob-2
-  margin-left 16.666% 
-.offset-mob-3
-  margin-left 24.999%
-.offset-mob-4
-  margin-left 33.333%
-.offset-mob-5
-  margin-left 41.665%
-.offset-mob-6
-  margin-left 49.998% 
-.offset-mob-7
-  margin-left 58.331% 
-.offset-mob-8
-  margin-left 66.664%
-.offset-mob-9
-  margin-left 74.997% 
-.offset-mob-10
-  margin-left 83.333% 
-.offset-mob-11
-  margin-left 91.663%
+.offset-1
+  margin-left $1_rise_wth
+.offset-2
+  margin-left rise_width(2) 
+.offset-3
+  margin-left rise_width(3)
+.offset-4
+  margin-left rise_width(4)
+.offset-5
+  margin-left rise_width(5)
+.offset-6
+  margin-left rise_width(6) 
+.offset-7
+  margin-left rise_width(7) 
+.offset-8
+  margin-left rise_width(8)
+.offset-9
+  margin-left rise_width(9) 
+.offset-10
+  margin-left rise_width(10) 
+.offset-11
+  margin-left rise_width(11)
   
 @media (min-width 768px)
-  .tower-tab-1
-    width 8.333%    
-  .tower-tab-2
-    width 16.666%    
-  .tower-tab-3
-    width 24.999%    
-  .tower-tab-4
-    width 33.333%    
-  .tower-tab-5
-    width 41.665%    
-  .tower-tab-6
-    width 49.998%    
-  .tower-tab-7
-    width 58.331%    
-  .tower-tab-8
-    width 66.664%    
-  .tower-tab-9
-    width 74.997%    
-  .tower-tab-10
-    width 83.333%    
-  .tower-tab-11
-    width 91.663%    
-  .tower-tab-12
-    width 100%
+  .rise-s1
+    width $1_rise_wth
+  .rise-s2
+    width rise_width(2)
+  .rise-s3
+    width rise_width(3)    
+  .rise-s4
+    width rise_width(4) 
+  .rise-s5
+    width rise_width(5) 
+  .rise-s6
+    width rise_width(6)
+  .rise-s7
+    width rise_width(7)   
+  .rise-s8
+    width rise_width(8) 
+  .rise-s9
+    width rise_width(9)   
+  .rise-s10
+    width rise_width(10)   
+  .rise-s11
+    width rise_width(11) 
+  .rise-s12
+    width rise_width(12)
     margin-left 0
-  .offset-tab-1
-    margin-left 8.333%
-  .offset-tab-2
-    margin-left 16.666% 
-  .offset-tab-3
-    margin-left 24.999%
-  .offset-tab-4
-    margin-left 33.333%
-  .offset-tab-5
-    margin-left 41.665%
-  .offset-tab-6
-    margin-left 49.998% 
-  .offset-tab-7
-    margin-left 58.331% 
-  .offset-tab-8
-    margin-left 66.664%
-  .offset-tab-9
-    margin-left 74.997% 
-  .offset-tab-10
-    margin-left 83.333% 
-  .offset-tab-11
-    margin-left 91.663%
+  .offset-s1
+    margin-left $1_rise_wth
+  .offset-s2
+    margin-left rise_width(2) 
+  .offset-s3
+    margin-left rise_width(3)
+  .offset-s4
+    margin-left rise_width(4)
+  .offset-s5
+    margin-left rise_width(5)
+  .offset-s6
+    margin-left rise_width(6) 
+  .offset-s7
+    margin-left rise_width(7) 
+  .offset-s8
+    margin-left rise_width(8)
+  .offset-s9
+    margin-left rise_width(9) 
+  .offset-s10
+    margin-left rise_width(10) 
+  .offset-s11
+    margin-left rise_width(11)
 
 @media (min-width 992px)
-  .tower-lap-1
-    width 8.333%    
-  .tower-lap-2
-    width 16.666%    
-  .tower-lap-3
-    width 24.999%    
-  .tower-lap-4
-    width 33.333%    
-  .tower-lap-5
-    width 41.665%    
-  .tower-lap-6
-    width 49.998%    
-  .tower-lap-7
-    width 58.331%    
-  .tower-lap-8
-    width 66.664%    
-  .tower-lap-9
-    width 74.997%    
-  .tower-lap-10
-    width 83.333%    
-  .tower-lap-11
-    width 91.663%    
-  .tower-lap-12
-    width 100%
+  .rise-m1
+    width $1_rise_wth   
+  .rise-m2
+    width rise_width(2)
+  .rise-m3
+    width rise_width(3)    
+  .rise-m4
+    width rise_width(4) 
+  .rise-m5
+    width rise_width(5) 
+  .rise-m6
+    width rise_width(6)
+  .rise-m7
+    width rise_width(7)   
+  .rise-m8
+    width rise_width(8) 
+  .rise-m9
+    width rise_width(9)   
+  .rise-m10
+    width rise_width(10)   
+  .rise-m11
+    width rise_width(11) 
+  .rise-m12
+    width rise_width(12)
     margin-left 0
-  .offset-lap-1
-    margin-left 8.333%
-  .offset-lap-2
-    margin-left 16.666% 
-  .offset-lap-3
-    margin-left 24.999%
-  .offset-lap-4
-    margin-left 33.333%
-  .offset-lap-5
-    margin-left 41.665%
-  .offset-lap-6
-    margin-left 49.998% 
-  .offset-lap-7
-    margin-left 58.331% 
-  .offset-lap-8
-    margin-left 66.664%
-  .offset-lap-9
-    margin-left 74.997% 
-  .offset-lap-10
-    margin-left 83.333% 
-  .offset-lap-11
-    margin-left 91.663%
+  .offset-m1
+    margin-left $1_rise_wth
+  .offset-m2
+    margin-left rise_width(2) 
+  .offset-m3
+    margin-left rise_width(3)
+  .offset-m4
+    margin-left rise_width(4)
+  .offset-m5
+    margin-left rise_width(5)
+  .offset-m6
+    margin-left rise_width(6) 
+  .offset-m7
+    margin-left rise_width(7) 
+  .offset-m8
+    margin-left rise_width(8)
+  .offset-m9
+    margin-left rise_width(9) 
+  .offset-m10
+    margin-left rise_width(10) 
+  .offset-m11
+    margin-left rise_width(11)
     
 @media (min-width 1200px)
-  .tower-des-1
-    width 8.333%    
-  .tower-des-2
-    width 16.666%    
-  .tower-des-3
-    width 24.999%    
-  .tower-des-4
-    width 33.333%    
-  .tower-des-5
-    width 41.665%    
-  .tower-des-6
-    width 49.998%    
-  .tower-des-7
-    width 58.331%    
-  .tower-des-8
-    width 66.664%    
-  .tower-des-9
-    width 74.997%    
-  .tower-des-10
-    width 83.333%    
-  .tower-des-11
-    width 91.663%    
-  .tower-des-12
-    width 100%
+  .rise-l1
+    width $1_rise_wth    
+  .rise-l2
+    width rise_width(2)
+  .rise-l3
+    width rise_width(3)    
+  .rise-l4
+    width rise_width(4) 
+  .rise-l5
+    width rise_width(5) 
+  .rise-l6
+    width rise_width(6)
+  .rise-l7
+    width rise_width(7)   
+  .rise-l8
+    width rise_width(8) 
+  .rise-l9
+    width rise_width(9)   
+  .rise-l10
+    width rise_width(10)   
+  .rise-l11
+    width rise_width(11) 
+  .rise-l12
+    width rise_width(12)
     margin-left 0
-  .offset-des-1
-    margin-left 8.333%
-  .offset-des-2
-    margin-left 16.666% 
-  .offset-des-3
-    margin-left 24.999%
-  .offset-des-4
-    margin-left 33.333%
-  .offset-des-5
-    margin-left 41.665%
-  .offset-des-6
-    margin-left 49.998% 
-  .offset-des-7
-    margin-left 58.331% 
-  .offset-des-8
-    margin-left 66.664%
-  .offset-des-9
-    margin-left 74.997% 
-  .offset-des-10
-    margin-left 83.333% 
-  .offset-des-11
-    margin-left 91.663%
-
-h1
-  font-size 5rem
-h2
-  font-size 4.2rem
-h3
-  font-size 3.6rem
-h4
-  font-size 3rem
-h5
-  font-size 2.4rem
-h6
-  font-size 1.5rem
+  .offset-l1
+    margin-left $1_rise_wth
+  .offset-l2
+    margin-left rise_width(2) 
+  .offset-l3
+    margin-left rise_width(3)
+  .offset-l4
+    margin-left rise_width(4)
+  .offset-l5
+    margin-left rise_width(5)
+  .offset-l6
+    margin-left rise_width(6) 
+  .offset-l7
+    margin-left rise_width(7) 
+  .offset-l8
+    margin-left rise_width(8)
+  .offset-l9
+    margin-left rise_width(9) 
+  .offset-l10
+    margin-left rise_width(10) 
+  .offset-l11
+    margin-left rise_width(11)
     
 
