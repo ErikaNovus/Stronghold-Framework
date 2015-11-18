@@ -5,12 +5,12 @@ Maintained by Bill Chandler
 Stronghold is an alternative framework for building websites. It gives the user/creator some default elements that can be used across any web project all of which can be customised in any way. Written using Jade and Stylus. Stronghold has a slightly different approach with the names of it's classes following along with the stronghold/castle theme.
 
 ##Why?
-During my long struggle learning HTML to a good degree I got annoyed with fact that none of the Frameworks had everything I needed. I decided to create my own framework, using skeleton as a base plate to get my bearings, that uses a syntax I can understand and follow.
+During my long (continual) struggle learning HTML to a good degree I got annoyed with fact that none of the Frameworks had everything I needed. I decided to create my own framework, using skeleton as a base plate to get my bearings, that uses a syntax I can understand and follow.
 Unlike most other Frameworks I have written Stronghold in Jade and Stylus as these are the pre-processors I use on a daily basis. 
 
 ##What does Stronghold give me?
 Currently:
-- 12 column(tower) based grid system using containers(keep)
+- 12 column(rise) based grid system using containers(pod)
 - Pleasing default colour scheme
 - Ability to hide and show elements based on viewport size
 - Smooth Carousel sliders using slick.js
