@@ -2,11 +2,10 @@
 Maintained by Bill Chandler
 
 ##What is Stronghold?
-Stronghold is an alternative framework for building websites. It gives the user/creator some default elements that can be used across any web project all of which can be customised in any way. Written using Jade and Stylus. Stronghold has a slightly different approach with the names of it's classes following along with the stronghold/castle theme.
+Stronghold is an alternative framework for building websites. It gives the user/creator some default elements that can be used across any web project all of which can be customised in any way. Written using Jade and Stylus. Stronghold has a slightly different approach with the names of it's classes (using Pod instead of container and riser instead of column).
 
 ##Why?
-During my long (continual) struggle learning HTML to a good degree I got annoyed with fact that none of the Frameworks had everything I needed. I decided to create my own framework, using skeleton as a base plate to get my bearings, that uses a syntax I can understand and follow.
-Unlike most other Frameworks I have written Stronghold in Jade and Stylus as these are the pre-processors I use on a daily basis. 
+Since I am learning HTML5 and CSS3 alongside Javascript I thought this would be a good learning experience for me. I also feel that, instead of making websites made from elements created completely by other people and then building my code around it, i'd create my own framework that I could use on any project. The id and class names i've chosen feel more natural to me than the ones i've seen in other frameworks (They may not be to everyones taste)
 
 ##What does Stronghold give me?
 Currently:
@@ -25,7 +24,7 @@ Currently:
 
 ##What has gone into this project?
 Normalize.css was included but due to the fact that I am using Stylus for this project I decided to include [Normalize.styl](https://github.com/bymathias/normalize.styl) created by bymathias. This is imported in the layout.styl file.
-I decided to use Font Awesome in this project as it's my favourite of all the icon font's i've used before. This has been translated into stylus by raulghm in the project [Font-Awesome-Stylus](https://github.com/raulghm/Font-Awesome-Stylus)
+Along with this I chose to use Font Awesome as it's my favourite of all the icon font's i've used before. This has been translated into stylus by raulghm in the project [Font-Awesome-Stylus](https://github.com/raulghm/Font-Awesome-Stylus)
 
 ###Checklist
 + ~~Grid~~
