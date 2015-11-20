@@ -187,54 +187,54 @@ td,
 th {
   padding: 0;
 }
-.rise-1,
-.rise-2,
-.rise-3,
-.rise-4,
-.rise-5,
-.rise-6,
-.rise-7,
-.rise-8,
-.rise-9,
-.rise-10,
-.rise-11,
-.rise-12,
-.rise-s1,
-.rise-s2,
-.rise-s3,
-.rise-s4,
-.rise-s5,
-.rise-s6,
-.rise-s7,
-.rise-s8,
-.rise-s9,
-.rise-s10,
-.rise-s11,
-.rise-s12,
-.rise-m1,
-.rise-m2,
-.rise-m3,
-.rise-m4,
-.rise-m5,
-.rise-m6,
-.rise-m7,
-.rise-m8,
-.rise-m9,
-.rise-m10,
-.rise-m11,
-.rise-m12,
-.rise-l1,
-.rise-l2,
-.rise-l3,
-.rise-l4,
-.rise-l5,
-.rise-l6,
-.rise-l7,
-.rise-l8,
-.rise-l9,
-.rise-l10,
-.rise-l11,
-.rise-l12 {
+.riser-1,
+.riser-2,
+.riser-3,
+.riser-4,
+.riser-5,
+.riser-6,
+.riser-7,
+.riser-8,
+.riser-9,
+.riser-10,
+.riser-11,
+.riser-12,
+.riser-s1,
+.riser-s2,
+.riser-s3,
+.riser-s4,
+.riser-s5,
+.riser-s6,
+.riser-s7,
+.riser-s8,
+.riser-s9,
+.riser-s10,
+.riser-s11,
+.riser-s12,
+.riser-m1,
+.riser-m2,
+.riser-m3,
+.riser-m4,
+.riser-m5,
+.riser-m6,
+.riser-m7,
+.riser-m8,
+.riser-m9,
+.riser-m10,
+.riser-m11,
+.riser-m12,
+.riser-l1,
+.riser-l2,
+.riser-l3,
+.riser-l4,
+.riser-l5,
+.riser-l6,
+.riser-l7,
+.riser-l8,
+.riser-l9,
+.riser-l10,
+.riser-l11,
+.riser-l12 {
   width: 100%;
   float: left;
   box-sizing: border-box;
@@ -253,40 +253,40 @@ th {
   margin-right: 5px;
   box-sizing: border-box;
 }
-.rise-1 {
+.riser-1 {
   width: 8.333333333333334%;
 }
-.rise-2 {
+.riser-2 {
   width: 16.666666666666668%;
 }
-.rise-3 {
+.riser-3 {
   width: 25%;
 }
-.rise-4 {
+.riser-4 {
   width: 33.333333333333336%;
 }
-.rise-5 {
+.riser-5 {
   width: 41.66666666666667%;
 }
-.rise-6 {
+.riser-6 {
   width: 50%;
 }
-.rise-7 {
+.riser-7 {
   width: 58.333333333333336%;
 }
-.rise-8 {
+.riser-8 {
   width: 66.66666666666667%;
 }
-.rise-9 {
+.riser-9 {
   width: 75%;
 }
-.rise-10 {
+.riser-10 {
   width: 83.33333333333334%;
 }
-.rise-11 {
+.riser-11 {
   width: 91.66666666666667%;
 }
-.rise-12 {
+.riser-12 {
   width: 100%;
   margin-left: 0;
 }
@@ -324,40 +324,40 @@ th {
   margin-left: 91.66666666666667%;
 }
 @media (min-width: 768px) {
-  .rise-s1 {
+  .riser-s1 {
     width: 8.333333333333334%;
   }
-  .rise-s2 {
+  .riser-s2 {
     width: 16.666666666666668%;
   }
-  .rise-s3 {
+  .riser-s3 {
     width: 25%;
   }
-  .rise-s4 {
+  .riser-s4 {
     width: 33.333333333333336%;
   }
-  .rise-s5 {
+  .riser-s5 {
     width: 41.66666666666667%;
   }
-  .rise-s6 {
+  .riser-s6 {
     width: 50%;
   }
-  .rise-s7 {
+  .riser-s7 {
     width: 58.333333333333336%;
   }
-  .rise-s8 {
+  .riser-s8 {
     width: 66.66666666666667%;
   }
-  .rise-s9 {
+  .riser-s9 {
     width: 75%;
   }
-  .rise-s10 {
+  .riser-s10 {
     width: 83.33333333333334%;
   }
-  .rise-s11 {
+  .riser-s11 {
     width: 91.66666666666667%;
   }
-  .rise-s12 {
+  .riser-s12 {
     width: 100%;
     margin-left: 0;
   }
@@ -396,40 +396,40 @@ th {
   }
 }
 @media (min-width: 992px) {
-  .rise-m1 {
+  .riser-m1 {
     width: 8.333333333333334%;
   }
-  .rise-m2 {
+  .riser-m2 {
     width: 16.666666666666668%;
   }
-  .rise-m3 {
+  .riser-m3 {
     width: 25%;
   }
-  .rise-m4 {
+  .riser-m4 {
     width: 33.333333333333336%;
   }
-  .rise-m5 {
+  .riser-m5 {
     width: 41.66666666666667%;
   }
-  .rise-m6 {
+  .riser-m6 {
     width: 50%;
   }
-  .rise-m7 {
+  .riser-m7 {
     width: 58.333333333333336%;
   }
-  .rise-m8 {
+  .riser-m8 {
     width: 66.66666666666667%;
   }
-  .rise-m9 {
+  .riser-m9 {
     width: 75%;
   }
-  .rise-m10 {
+  .riser-m10 {
     width: 83.33333333333334%;
   }
-  .rise-m11 {
+  .riser-m11 {
     width: 91.66666666666667%;
   }
-  .rise-m12 {
+  .riser-m12 {
     width: 100%;
     margin-left: 0;
   }
@@ -468,40 +468,40 @@ th {
   }
 }
 @media (min-width: 1200px) {
-  .rise-l1 {
+  .riser-l1 {
     width: 8.333333333333334%;
   }
-  .rise-l2 {
+  .riser-l2 {
     width: 16.666666666666668%;
   }
-  .rise-l3 {
+  .riser-l3 {
     width: 25%;
   }
-  .rise-l4 {
+  .riser-l4 {
     width: 33.333333333333336%;
   }
-  .rise-l5 {
+  .riser-l5 {
     width: 41.66666666666667%;
   }
-  .rise-l6 {
+  .riser-l6 {
     width: 50%;
   }
-  .rise-l7 {
+  .riser-l7 {
     width: 58.333333333333336%;
   }
-  .rise-l8 {
+  .riser-l8 {
     width: 66.66666666666667%;
   }
-  .rise-l9 {
+  .riser-l9 {
     width: 75%;
   }
-  .rise-l10 {
+  .riser-l10 {
     width: 83.33333333333334%;
   }
-  .rise-l11 {
+  .riser-l11 {
     width: 91.66666666666667%;
   }
-  .rise-l12 {
+  .riser-l12 {
     width: 100%;
     margin-left: 0;
   }
@@ -619,6 +619,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   color: #333;
+  font-family: "SoftElegance", sans-serif;
 }
 h1,
 h2,
@@ -976,75 +977,80 @@ td:last-child {
 form {
   margin-bottom: 2.5rem;
 }
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
-  height: 38px;
-  padding: 6px 10px;
-  background-color: #fff;
-  border: 1px solid #d1d1d1;
-  border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box;
-  margin-bottom: 1.5rem;
-}
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-textarea:focus,
-select:focus {
-  border: 1px solid #6a98e1;
-  outline: 0;
-}
-input[type="email"] -webkit-appearance none -moz-appearance none,
-input[type="number"] -webkit-appearance none -moz-appearance none,
-input[type="search"] -webkit-appearance none -moz-appearance none,
-input[type="text"] -webkit-appearance none -moz-appearance none,
-input[type="tel"] -webkit-appearance none -moz-appearance none,
-input[type="url"] -webkit-appearance none -moz-appearance none,
-input[type="password"] -webkit-appearance none -moz-appearance none,
-textarea -webkit-appearance none -moz-appearance none {
-  appearance: none;
-}
-textarea {
+form textarea {
   min-height: 65px;
   padding-top: 6px;
   padding-bottom: 6px;
-  margin-bottom: 1.5rem;
 }
-label,
-legend {
+form label,
+form legend {
   display: block;
-  margin-bottom: 0.5rem;
   font-weight: 600;
 }
-fieldset {
+form fieldset {
   padding: 0;
   border-width: 0;
-  margin-bottom: 1.5rem;
 }
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline;
-  vertical-align: middle;
+form label {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  content: "";
+  display: table;
+  clear: both;
 }
-label .label-body {
+form label .labelBody {
   display: inline-block;
   margin-left: 0.5rem;
+  margin-right: 0.5rem;
   font-weight: normal;
 }
-select {
+form select {
   margin-bottom: 1.5rem;
+}
+form input[type="email"],
+form input[type="number"],
+form input[type="search"],
+form input[type="text"],
+form input[type="tel"],
+form input[type="url"],
+form input[type="password"],
+form textarea,
+form select {
+  height: 24px;
+  padding-left: 2.5px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  box-shadow: none;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form input[type="search"]:focus,
+form input[type="text"]:focus,
+form input[type="tel"]:focus,
+form input[type="url"]:focus,
+form input[type="password"]:focus,
+form textarea:focus,
+form select:focus {
+  border: 1px solid #6a98e1;
+  outline: 0;
+}
+form input[type="email"] -webkit-appearance none -moz-appearance none,
+form input[type="number"] -webkit-appearance none -moz-appearance none,
+form input[type="search"] -webkit-appearance none -moz-appearance none,
+form input[type="text"] -webkit-appearance none -moz-appearance none,
+form input[type="tel"] -webkit-appearance none -moz-appearance none,
+form input[type="url"] -webkit-appearance none -moz-appearance none,
+form input[type="password"] -webkit-appearance none -moz-appearance none,
+form textarea -webkit-appearance none -moz-appearance none {
+  appearance: none;
+}
+form input[type="checkbox"],
+form input[type="radio"] {
+  display: inline;
+  vertical-align: middle;
 }
 ul {
   list-style: circle inside;
@@ -1097,6 +1103,7 @@ figure {
 }
 .container:after,
 .row:after,
+label:after,
 .clear-it {
   content: "";
   display: table;

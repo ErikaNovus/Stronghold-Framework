@@ -1,43 +1,46 @@
 /* FORMS */
 form
-  margin-bottom 2.5rem
-input[type="email"],input[type="number"],input[type="search"],input[type="text"],input[type="tel"],input[type="url"],input[type="password"],textarea,select 
-  height 38px
-  padding 6px 10px
-  background-color #fff
-  border 1px solid #D1D1D1
-  border-radius 4px
-  box-shadow none
-  box-sizing border-box
-  margin-bottom 1.5rem
-  &:focus
-    border 1px solid $neutral
-    outline 0 
-input[type="email"],input[type="number"],input[type="search"],input[type="text"],input[type="tel"],input[type="url"],input[type="password"],textarea 
-  -webkit-appearance none
-     -moz-appearance none
-          appearance none 
-textarea 
-  min-height 65px
-  padding-top 6px
-  padding-bottom 6px
-  margin-bottom 1.5rem
-label,legend 
-  display block
-  margin-bottom .5rem
-  font-weight 600
-fieldset 
-  padding 0
-  border-width 0 
-  margin-bottom 1.5rem
-input[type="checkbox"],input[type="radio"] 
-  display inline
-  vertical-align middle
-label
-  .label-body 
+  margin-bottom 2.5rem  
+  textarea 
+    min-height 65px
+    padding-top 6px
+    padding-bottom 6px
+  label,legend 
+    display block
+    font-weight 600    
+  fieldset 
+    padding 0
+    border-width 0 
+  label
     display inline-block
-    margin-left .5rem
-    font-weight normal    
-select
-  margin-bottom 1.5rem
+    padding-right 5px
+    padding-left 5px
+    content ""
+    display table
+    clear both         
+    .labelBody 
+      display inline-block
+      margin-left .5rem
+      margin-right .5rem
+      font-weight normal    
+  select
+    margin-bottom 1.5rem
+  input[type="email"],input[type="number"],input[type="search"],input[type="text"],input[type="tel"],input[type="url"],input[type="password"],textarea,select 
+    height 24px
+    padding-left 2.5px
+    background-color #fff
+    border 1px solid #D1D1D1
+    box-shadow none
+    box-sizing border-box
+    margin-bottom 5px
+    &:focus
+      border 1px solid $neutral
+      outline 0 
+  input[type="email"],input[type="number"],input[type="search"],input[type="text"],input[type="tel"],input[type="url"],input[type="password"],textarea 
+    -webkit-appearance none
+       -moz-appearance none
+            appearance none 
+  input[type="checkbox"],input[type="radio"] 
+    display inline
+    vertical-align middle
   

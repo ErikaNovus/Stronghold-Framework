@@ -25,6 +25,17 @@ module.exports = function(grunt) {
         }]
       }
     },
+    cssmin: {
+      minify: {
+        files: [{
+          expand: true,
+          cwd: 'dist/assets/css',
+          src: ['layout.css'],
+          dest: 'dist/assets/css',
+          ext: '.min.css'
+        }]
+      }
+    },
     uglify: {
       all_js: {
         options: {
@@ -49,6 +60,10 @@ module.exports = function(grunt) {
         files: ['src/javascript/*.js'],
         tasks: ['uglify']
       },
+      css : {
+        files: ['dist/assets/css/layout.css'],
+        tasks: ['cssmin']
+      },
       options: {
         livereload: true
       }
@@ -67,6 +82,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-parallel');
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-contrib-jade');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-express');
