@@ -49,5 +49,5 @@ src/stylus/style.styl
 sync.ffs_db
 *.cfg
 prepros.cfg
-dist/
+dist
 
