@@ -49,7 +49,5 @@ src/stylus/style.styl
 sync.ffs_db
 *.cfg
 prepros.cfg
-dist/index.html
-dist/assets/css/custom.css
-dist/assets/img
+dist/
 
