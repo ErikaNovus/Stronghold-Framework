@@ -1083,6 +1083,7 @@ li {
 }
 .block {
   margin-bottom: 35px;
+  margin-left: 10px;
 }
 .block img {
   max-width: 90%;
@@ -1131,7 +1132,7 @@ li {
 }
 .block .block-body .block-list .fa {
   background-color: #7fa7e5;
-  padding: 3.5px 3.5px 5px 3.5px;
+  padding: 0.35rem 0.35rem 0.5rem 0.35rem;
 }
 .block .block-body .block-list .round .fa {
   border-top-left-radius: 4px;
