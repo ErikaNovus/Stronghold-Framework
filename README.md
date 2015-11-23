@@ -36,7 +36,6 @@ Along with this I chose to use Font Awesome as it's my favourite of all the icon
 > Pagination
 + ~~Buttons~~
 > Needs more button varieties!
-+ ~~Carousels (Implement Slick)~~
 + ~~Utility Classes~~
 + Port to Sass
 + Port to LESS

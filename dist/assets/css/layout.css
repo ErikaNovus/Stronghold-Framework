@@ -656,15 +656,19 @@ h6 {
   letter-spacing: 0;
 }
 p {
+  font-size: 1.4rem;
   margin-top: 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0;
+  margin-left: 5px;
+  padding-top: 7.5px;
+  padding-bottom: 5px;
 }
 a {
-  color: #6a98e1;
+  color: #2b6cd4;
   text-decoration: none;
 }
 a:hover {
-  color: #2b6cd4;
+  color: #2661bf;
   text-decoration: none;
 }
 code {
@@ -1055,6 +1059,16 @@ form input[type="radio"] {
 ul {
   list-style: circle inside;
 }
+ul .li-title {
+  width: 30%;
+  margin: 0;
+  padding: 2px;
+  font-weight: 600;
+}
+ul .li-body {
+  width: 40%;
+  margin: 0;
+}
 ol {
   list-style: decimal inside;
 }
@@ -1064,15 +1078,68 @@ ul {
   margin-top: 0;
   margin-bottom: 2.5rem;
 }
-ul ul,
-ul ol,
-ol ol,
-ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%;
-}
 li {
   margin-bottom: 1rem;
+}
+.block {
+  margin-bottom: 35px;
+}
+.block img {
+  max-width: 90%;
+  max-height: 90%;
+  margin-top: 3%;
+}
+.block h1 {
+  padding: 0;
+  margin: 0;
+}
+.block h2 {
+  padding: 0;
+  margin: 0;
+}
+.block h3 {
+  padding: 0;
+  margin: 0;
+}
+.block .block-head {
+  background-color: #7fa7e5;
+  padding: 5px;
+}
+.block .block-head h3 {
+  margin-top: 5px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  font-weight: bold;
+}
+.block .block-head h4 {
+  margin-top: 5px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  font-weight: bold;
+}
+.block .block-body {
+  padding-bottom: 2px;
+  background-color: #e9f0fb;
+}
+.block .block-body .block-list {
+  list-style: none;
+  padding-left: 7.5px;
+  padding-top: 10px;
+  margin-bottom: 0;
+  margin-left: 15px;
+  font-size: 1.4rem;
+}
+.block .block-body .block-list .fa {
+  background-color: #7fa7e5;
+  padding: 3.5px 3.5px 5px 3.5px;
+}
+.block .block-body .block-list .round .fa {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.block .block-body .block-list li {
+  width: 85%;
+  background-color: #bfd3f2;
 }
 .full-width-element {
   width: 100%;
@@ -1090,6 +1157,12 @@ li {
 }
 .round {
   border-radius: 4px;
+}
+.shadow-left {
+  box-shadow: -3px 4px 10px 2px rgba(0,0,0,0.3);
+}
+.shadow-right {
+  box-shadow: 3px 4px 10px 2px rgba(0,0,0,0.3);
 }
 hr {
   margin-top: 3rem;
