@@ -40,10 +40,11 @@ module.exports = function(grunt) {
       all_js: {
         options: {
           sourceMap: true,
-          sourceMapName: 'sourceMap.map'
+          sourceMapName: 'sourceMap.map',
+          mangle: false
         },
         files: {
-          'composite.min.js': ['javascript/slick.min.js','javascript/sliders.js','javascript/segment.js','javascript/custom_animations.js']
+          'dist/assets/js/stronghold.min.js': ['src/javascript/_*.js','src/javascript/stronghold-init.js']  
         }
       }
     },
