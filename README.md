@@ -65,10 +65,8 @@ Key:
 + **e** = external resource (From libraries or other areas)
 + **p** = planned(Not yet implemented)
 
-Version Numbers:
-|1|1|
-|-|-|
-|Full Version|Percentage complete towards full version rounded to 10|
+**Version Numbers:**
+First number is full release version, second number is development percentage towards next full release version.
 
 | **Feature**  |                        **Version**                       |
 |--------------|:--------------------------------------------------------:|
