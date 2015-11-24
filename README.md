@@ -84,6 +84,7 @@ First number is full release version, second number is development percentage to
 | Sass Port    |                             p                            |
 | LESS Port    |                             p                            |
 | Config/Variables|                        d0.7                           |
+| Slick Carousels|                           x                            |
 
 
 
