@@ -57,3 +57,38 @@ If you would like to work with the Jade and Stylus files but do not know how the
 |[Normalize.styl](https://github.com/bymathias/normalize.styl)|Add Normalize.css to Stylus sheets|
 |[Font-Awesome-stylus](https://github.com/raulghm/Font-Awesome-Stylus)|Add font awesome using stylus|
 
+##Feature Status
+Key: 
++ **d** = dev (Not fully implemented/in progress)
++ **r** = release(Can be used as is)
++ **x** = removed(No longer maintained/may remain in older versions)
++ **e** = external resource (From libraries or other areas)
++ **p** = planned(Not yet implemented)
+
+Version Numbers:
+|1|1|
+|-|-|
+|Full Version|Percentage complete towards full version rounded to 10|
+
+| **Feature**  |                        **Version**                       |
+|--------------|:--------------------------------------------------------:|
+| Grid         |                           r1.0                           |
+| Typography   |                           r1.0                           |
+| Utilites     |                           r1.0                           |
+| Blocks       |                           d0.8                           |
+| Visibility   |                           r1.0                           |
+| Navigation   |                           d0.1                           |
+| Tables       |                             p                            |
+| Buttons      |                           r1.0                           |
+| Forms        |                             p                            |
+| Normalize    |                          e[3.0.3](https://github.com/bymathias/normalize.styl)    |
+| Font Awesome |                          e[4.4.0](https://github.com/raulghm/Font-Awesome-Stylus) |
+| Sass Port    |                             p                            |
+| LESS Port    |                             p                            |
+| Config/Variables|                        d0.7                           |
+
+
+
+
+
+
