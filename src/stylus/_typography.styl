@@ -39,11 +39,15 @@ p
   padding-bottom 5px  
   
 a
-  color darken($neutral, 15)
-  text-decoration none
+  color darken($default_site_colour, 25)
+  font-size inherit
+  text-decoration underline
+  text-shadow -.5px .4px 0 darken($default_site_colour, 15)
+  -moz-text-shadow -.5px .4px 0 darken($default_site_colour, 15)
+  -webkit-text-shadow -.5px .4px 0 darken($default_site_colour, 15)
+  -o-text-shadow -.5px .4px 0 darken($default_site_colour, 15)  
   &:hover
-    color darken($neutral, 20)
-    text-decoration none
+    color darken($default_site_colour, 10)
 
     
 code

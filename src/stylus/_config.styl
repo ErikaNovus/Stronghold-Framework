@@ -21,23 +21,23 @@ $neutral = #6A98E1 //Blue
 $bad = #F74662 //Red
 $medium = #FFA86A //Orange
 $good = #60E59E //Green
-$default_font_colour = #333 //Grey
 $default_site_colour = $neutral
+$default_font_colour = darken($default_site_colour, 40)
 
 /* 
 # FONTS
 # NEW FONTS CAN BE ADDED BELOW
 */
 @font-face
-  font-family SoftElegance
+  font-family FiraSans
   font-style normal
-  src url($font_path + "SoftElegance.ttf") format(truetype)
+  src url($font_path + "FiraSans-Book.otf") format(opentype)
 @font-face
   font-family Monofur
   font-style normal
   src url($font_path + "monofur.ttf") format(truetype)
 
-$main_font = "SoftElegance", sans-serif
+$main_font = "FiraSans", sans-serif
 $code_font = "Monofur", monospace
 
 

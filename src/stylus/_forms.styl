@@ -15,14 +15,16 @@ form
     display inline-block
     padding-right 5px
     padding-left 5px
-    content ""
-    display table
-    clear both         
     .label-body 
       display inline-block
       margin-left .5rem
       margin-right .5rem
-      font-weight normal    
+      font-weight normal 
+  &:after
+    content ""
+    display table
+    clear both         
+       
   select
     margin-bottom 1.5rem
   input[type="email"],input[type="number"],input[type="search"],input[type="text"],input[type="tel"],input[type="url"],input[type="password"],textarea,select 

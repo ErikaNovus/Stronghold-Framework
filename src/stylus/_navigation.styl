@@ -10,10 +10,9 @@
     box-sizing border-box
     -moz-box-sizing border-box
     -webkit-box-sizing border-box
-ul.navi 
+ul.navi
     list-style-type none
     margin 0
-    margin-bottom 33px
     padding 0
     width 100%
     background darken($default_site_colour, 15)
@@ -33,9 +32,10 @@ ul.navi
         display block
         color #fff
         padding 12px 24px 12px 24px
-        font-family 'Open Sans', sans-serif
+        font-family 'FiraSans'
         font-size 16px
         font-weight 600
+        text-decoration none
         text-shadow 0 1px 0 rgba(255,255,255,0.2)
         transition background-color 0.5s ease-out
         -o-transition background-color 0.5s ease-out
@@ -91,6 +91,8 @@ ul.navi
         top 0
         z-index 999
         width 100%
+    & li.push
+        margin 0
     
 
     &.shrink li 
@@ -119,6 +121,9 @@ ul.navi
     &.shrink li > ul 
         display none
         position static
+    
+    &.shrink .push
+        float none
 
 .btn-shrink
     position absolute
