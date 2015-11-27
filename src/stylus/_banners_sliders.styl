@@ -1,0 +1,72 @@
+.banner
+  width 100%
+  margin-bottom -.7rem
+
+/* SLIDER/CAROUSEL STYLES */
+.slider
+  position relative
+  overflow hidden
+  ul
+    margin 0
+    padding 0
+    white-space nowrap
+    list-style-type none
+    li
+      transform translateZ(0)
+      float left
+      display block
+      margin 0
+      padding 0
+      & > a
+        display block
+        text-align center
+        outline none
+        & img
+          border none
+          display block
+          margin 0 auto
+          max-width 100%
+      & > div
+        display block
+        text-align center
+        outline none
+  nav
+    span
+      position absolute
+      top 50%
+      width 30px
+      height 100px
+      background $default_site_colour
+      color lighten($default_site_colour, 20)
+      font-size 50px
+      text-align center
+      margin-top -50px
+      line-height 100px
+      cursor pointer
+      font-weight normal
+      &:hover
+        background darken($default_site_colour, 10)
+    .slider-next
+      right 0px
+    .slider-prev
+      left 0px
+.slider-dots
+  position absolute
+  bottom 0px
+  white-space nowrap
+  text-align center
+  width 100%
+  span
+    display inline-block
+    width 10px
+    height 10px
+    background #ddd
+    margin 4px
+    border-radius 50%
+    cursor pointer
+    &.slider-current
+      background $default_site_colour
+      box-shadow 0 0 0 2px $default_site_colour
+      transition box-shadow 0.2s ease-in-out
+    &:hover
+      background darken($default_site_colour, 10)
