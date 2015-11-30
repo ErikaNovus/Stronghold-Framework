@@ -1,12 +1,13 @@
 /* Initialising Navigation Bar */
-$('#top-navigation').shrinking_navigation(
+$('#mobile-navigation').shrinking_navigation(
 {
   breakpoint: '767',
   transitionSpeed: 'fast'
 });
-/* Initialising Banner Slider */
 
-/* "Automatically moving" slider */
+
+
+/* Initialising Banner Slider */
 var mouseEnteredSlider = false;
 $('#banner').slider({
   speed: config.bannerAnimationSpeed,
