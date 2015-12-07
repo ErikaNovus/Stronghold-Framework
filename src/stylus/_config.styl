@@ -1,13 +1,13 @@
 /* 
 # GRID VARIABLES - NECESSARY FOR GRID TO WORK
-# AMOUNT OF COLUMNS CAN BE ADJUSTED BUT NEW RISE CLASSES WILL HAVE TO BE MANUALLY CREATED INSIDE OF _grid.styl 
+# AMOUNT OF COLUMNS CAN BE ADJUSTED BUT NEW RISER CLASSES WILL HAVE TO BE MANUALLY CREATED INSIDE OF "_grid.styl"
 */
 $12_riser_wth = 100%
 $1_riser_wth = $12_riser_wth / 12
 
 /* 
 # DEFAULT PATHS 
-# UPDATE THESE IF FONTS OF IMAGES ARE KEPT IN ANOTHER DIRECTORY
+# UPDATE THESE IF FONTS OR IMAGES ARE KEPT IN ANOTHER DIRECTORY
 */
 $font_path = "../fonts/"
 $img_path = "../img/"
@@ -15,13 +15,13 @@ $img_path = "../img/"
 /* 
 # COLOUR SCHEME
 # MANUALLY CHANGE THESE HERE TO CHANGE THE COLOUR OF ALL PRE-DEFINED ELEMENTS
-# NEUTRAL IS, BY DEFAULT, THE MAIN SITE COLOUR
+# BY DEFAULT, THE MAIN SITE COLOUR IS GREY
 */
 $neutral = #6A98E1 //Blue
 $bad = #F74662 //Red
 $medium = #FFA86A //Orange
 $good = #60E59E //Green
-$default_site_colour = $neutral
+$default_site_colour = #7A7A7A //Grey
 $default_font_colour = darken($default_site_colour, 40)
 
 /* 
@@ -40,11 +40,10 @@ $default_font_colour = darken($default_site_colour, 40)
 $main_font = "FiraSans", sans-serif
 $code_font = "Monofur", monospace
 
-
-
 /* 
 # TYPOGRAPHY
 # RELATIVE FONT SIZES
+# 1rem = 10px FOR EASY UNIT CONVERSION (eg. 1.6rem = 16px)
 */
 $h1_size = 4rem
 $h2_size = 3.6rem
