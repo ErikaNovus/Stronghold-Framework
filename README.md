@@ -1,6 +1,8 @@
 #Stronghold Website Creation Framework
 Maintained by Bill Chandler
 
+Distribution version can be found [here](https://github.com/Leaderproxima/Stronghold-Framework_Dist)
+
 ##What is Stronghold?
 Stronghold is an alternative framework for building websites. It gives the user/creator some default elements that can be used across any web project all of which can be customised in any way. Written using Jade and Stylus. Stronghold has a slightly different approach with the names of it's classes (using Pod instead of container and riser instead of column).
 
