@@ -40,6 +40,8 @@ Along with this I chose to use Font Awesome as it's my favourite of all the icon
 + ~~Buttons~~
 > Needs more button varieties!
 + ~~Utility Classes~~
++ ~~Content blocks~~
++ ~~Animating banners~~
 + Port to Sass
 + Port to LESS
 + More coming soon...
@@ -49,8 +51,8 @@ When cloning, or downloading, this project you will be given two folders: **src*
 For those that do not want to work with Stylus the dist folder contains the compiled html and css files which can be edited just as easily. Although, at this time, the css is quite messy and the Stylus code is much easier to read.
 
 If you would like to work with the Jade and Stylus files but do not know how then try the links below:
-+ [jade](http://webdesign.tutsplus.com/courses/top-speed-html-development-with-jade?utm_source=Tuts+&utm_medium=referral&utm_campaign=teaserpost-short&utm_content=CRS-20012&WT.mc_id=Tuts+_referral_teaserpost-short_CRS-20012)
-+ [stylus](http://webdesign.tutsplus.com/courses/become-a-css-superhero-with-stylus)
++ [Jade](http://webdesign.tutsplus.com/courses/top-speed-html-development-with-jade?utm_source=Tuts+&utm_medium=referral&utm_campaign=teaserpost-short&utm_content=CRS-20012&WT.mc_id=Tuts+_referral_teaserpost-short_CRS-20012)
++ [Stylus](http://webdesign.tutsplus.com/courses/become-a-css-superhero-with-stylus)
 + [Grunt](http://webdesign.tutsplus.com/series/the-command-line-for-web-design--cms-777)
 
 
