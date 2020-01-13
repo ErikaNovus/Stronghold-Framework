@@ -1,16 +1,20 @@
-#Stronghold Website Creation Framework
+### Old Project - No longer being worked on ###
+
+
+
+# Stronghold Website Creation Framework
 Maintained by Bill Chandler
 
 Distribution version can be found [here](https://github.com/Leaderproxima/Stronghold-Framework_Dist)
 For a regularly updated feature preview please head to [proxi-corp.co.uk/stronghold](http://proxi-corp.co.uk/stronghold/index.html)
 
-##What is Stronghold?
+## What is Stronghold?
 Stronghold is an alternative framework for building websites. It gives the user/creator some default elements that can be used across any web project all of which can be customised in any way. Written using Jade and Stylus. Stronghold has a slightly different approach with the names of it's classes (using Pod instead of container and riser instead of column).
 
-##Why?
+## Why?
 Since I am learning HTML5 and CSS3 alongside Javascript I thought this would be a good learning experience for me. I also feel that, instead of making websites made from elements created completely by other people and then building my code around it, i'd create my own framework that I could use on any project. The id and class names i've chosen feel more natural to me than the ones i've seen in other frameworks (They may not be to everyones taste)
 
-##What does Stronghold give me?
+## What does Stronghold give me?
 Currently:
 - 12 column(rise) based grid system using containers(pod)
 - Pleasing default colour scheme (editable in config)
@@ -25,11 +29,11 @@ Currently:
 
 *See checklist for what's to come*
 
-##What has gone into this project?
+## What has gone into this project?
 Normalize.css was included but due to the fact that I am using Stylus for this project I decided to include [Normalize.styl](https://github.com/bymathias/normalize.styl) created by bymathias. This is imported in the layout.styl file.
 Along with this I chose to use Font Awesome as it's my favourite of all the icon font's i've used before. This has been translated into stylus by raulghm in the project [Font-Awesome-Stylus](https://github.com/raulghm/Font-Awesome-Stylus)
 
-###Checklist
+### Checklist
 + ~~Grid~~
 > ~~Make Grid Responsive~~
 + ~~Visible and Hidden elements~~
@@ -46,7 +50,7 @@ Along with this I chose to use Font Awesome as it's my favourite of all the icon
 + Port to LESS
 + More coming soon...
 
-##What do I get in the download?
+## What do I get in the download?
 When cloning, or downloading, this project you will be given two folders: **src** and **dist**. The src folder contains all of the Stylus source files as well as the Gruntfile.js and package.json which can be used to get my development environment. 
 For those that do not want to work with Stylus the dist folder contains the compiled html and css files which can be edited just as easily. Although, at this time, the css is quite messy and the Stylus code is much easier to read.
 
@@ -56,7 +60,7 @@ If you would like to work with the Jade and Stylus files but do not know how the
 + [Grunt](http://webdesign.tutsplus.com/series/the-command-line-for-web-design--cms-777)
 
 
-##Dependancies
+## Dependancies
 |Dependancy|Description|
 |----------|----|
 |[Normalize.styl](https://github.com/bymathias/normalize.styl)|Add Normalize.css to Stylus sheets|
